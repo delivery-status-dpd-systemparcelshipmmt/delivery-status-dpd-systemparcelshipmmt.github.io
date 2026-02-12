@@ -11,60 +11,83 @@ export const siteConfig = {
   },
   aboutMe:
     "I am a passionate iOS developer who enjoys turning ideas into polished, user-centric mobile experiences. I thrive in collaborative environments but am equally comfortable taking ownership and delivering features independently. Strong communication and teamwork are among my key strengths — I naturally connect with teammates, often building great working relationships from day one. I’m deeply curious about new technologies in the Apple ecosystem and continuously eager to learn, refine my craft, and stay up to date with what excites me in iOS development.",
-  skills: ["Swift", "SwiftUI", "UIKit", "Combine", "CoreData", "Clean Swift", "SOLID", "CI/CD", "Swift Concyrency", "Scrum", "Scrum Master", "Swift Testing"],
+  skills: ["Bocsánat", "Hívj fel!", "Köszi ha elolvasod", "Ha tudod sem árthat", "Family power", "Látogassatok meg"],
   projects: [
     {
-      name: "Luxury Car Connectivity and Social Media App",
+      name: " Ismeretlen feladó szolgáltató mögött",
       description:
-        "Developed a high-quality premium application for a leading luxury car manufacturer, featuring advanced functionalities such as car connectivity, integrated chat, a social platform, and more.",
-      link: "https://www.accenture.com/",
-      skills: ["SwiftUI", "Combine", "Swift Package Manager", "Swift Testing", "XCTesting", "SwiftData", "SourceTree", "Github Actions", "Proxyman", "Danger", "Periphery", "Jira", "Confluence", "Figma", "AppleMaps", "Mapbox"],
-    },
-    {
-      name: "Internal Vehicle Feedback Application",
-      description:
-        "Developed and maintained an internal application for a renowned German car manufacturer, enabling users to provide detailed feedback on new vehicles through notes, images, audio, and video recordings. Responsibilities included improving and developing new features, optimizing performance, enhancing test coverage for reliability, and ensuring the application met evolving requirements.",
-      link: "https://www.accenture.com/",
-      skills: ["SwiftUI", "Modular Architecture", "CocoaPods", "AVKit", "Firebase", "SourceTree", "Jira", "Confluence", "Figma"],
-    },
-    {
-      name: "Crash-Test Documentation Application for Automotive Manufacturers",
-      description:
-        "Created an internal application for a German car manufacturer to record car crash-test results using iPhones or iPads. The application included predefined angles for image capture, offline functionality, and automatic data synchronization with the server upon internet availability. The project was executed alongside other initiatives within a scaled agile framework, utilizing Scrum of Scrums for coordination.",
-      link: "https://www.accenture.com/",
-      skills: ["SwiftUI", "Combine", "Swift Package Manager", "XCTesting", "Core Data", "SourceTree", "Bitbucket", "Confluence", "Jira", "Parabol"],
-    },
-    {
-      name: "Smart Wine Cellar Management Application",
-      description:
-        "Developed an optical label recognition and wine cellar management application for a leading home appliance brand. Integrated with smart wine cellars, the project involved migrating from UIKit to SwiftUI, implementing the Coordinator pattern, and contributing to architectural planning and feature development.",
-      link: "https://www.accenture.com/",
-      skills: ["UIKit", "SwiftUI", "MVC", "Coordinator pattern", "CocoaPods", "Jira", "Jenkins", "Fastlane", "SourceTree", "RXSwift", "Zeplin"],
+        "Az e‑mail egy futárszolgálatra hivatkozik, de a feladó címe egy általános e‑mail szolgáltatót használ (pl. Proton Mail), nem a cég hivatalos domainjét. A valódi futárcégek szinte mindig saját domainről küldenek levelet.",
+      link: "",
+      skills: ["Feladó", "Domain", "Email"],
     },
   ],
   experience: [
-    {
-      company: "EPAM Systems",
-      title: "Senior iOS Developer",
-      dateRange: "Jan 2026 - Present",
-      link: "https://www.epam.com",
-      bullets: [
-      ],
-    },
-    {
-      company: "Accenture",
-      title: "Senior iOS Developer",
-      dateRange: "Oct 2020 - Dec 2025",
-      link: "https://www.accenture.com/",
-      bullets: [
-          "Built a premium app for a luxury car brand with car connectivity, chat, and social media features.",
-          "Enhanced an internal feedback app for a German car maker, adding multimedia feedback and boosting reliability.",
-          "Developed a crash-test documentation app with offline functionality and auto data sync.",
-          "Developed and migrated a wine cellar app to SwiftUI, implemented the Coordinator pattern, and improved architecture.",
-          "Increased test coverage and optimized performance across various projects.",
-          "Collaborated in scaled agile frameworks using Scrum of Scrums for coordination."
+      {
+        company: "Általános",
+        title: "Gyanús feladó vagy e‑mail cím",
+        dateRange: "Könnyű felismerni",
+        link: "",
+        bullets: [
+          "Az e‑mail címe nem egyezik a megszokott hivatalos címmel, vagy furcsa, hosszú, idegen domainről jön.",
+          "Mindig nézd meg a teljes feladó címet, ne csak a megjelenített nevet.",
+          "Példa: delivery.notice@random-mail123.com"
         ],
-    },
+      },
+      {
+          company: "Általános",
+          title: "Sürgető, nyomást gyakorló szöveg",
+          dateRange: "Könnyű felismerni",
+          link: "",
+          bullets: [
+              "A levél azonnali cselekvésre próbál kényszeríteni (pl. „24 órán belül”, „utolsó figyelmeztetés”).",
+              "A csalók gyakran félelmet vagy kapkodást akarnak kiváltani.",
+              "Példa: „Ha nem kattintasz azonnal, a csomagot visszaküldjük.”"
+          ],
+      },
+      {
+          company: "Általános",
+          title: "Hosszú vagy furcsa link",
+          dateRange: "Közepes felismerni",
+          link: "",
+          bullets: [
+              "A link nagyon hosszú, sok számot vagy értelmetlen karaktert tartalmaz.",
+              "Mindig a link elejét (a domain nevét) érdemes ellenőrizni.",
+              "Példa: https://status-check.delivery-system.example/verify/239847?ref=mail"
+          ],
+      },
+      {
+          company: "Általános",
+          title: "Általános megszólítás",
+          dateRange: "Könnyű felismerni",
+          link: "",
+          bullets: [
+              "Az e-mail nem név szerint szólít meg, hanem általánosan.",
+              "A valódi szolgáltatók gyakran tudják a nevedet.",
+              "Példa: „Tisztelt Ügyfél!” vagy „Kedves Felhasználó!”"
+          ],
+      },
+      {
+          company: "Általános",
+          title: "Olyan üzenet, amire nem számítottál",
+          dateRange: "Közepes felismerni",
+          link: "",
+          bullets: [
+              "Csomagról, számláról vagy problémáról szól, amiről nem tudsz.",
+              "Ha nem várt üzenetet kapsz, mindig legyél gyanakvó.",
+              "Példa: csomagértesítő akkor, amikor nem rendeltél semmit."
+          ],
+      },
+      {
+          company: "Általános",
+          title: "Csak kattintásra ad lehetőséget",
+          dateRange: "Közepes felismerni",
+          link: "",
+          bullets: [
+              "Csak egy link vagy gomb van, nincs telefonszám vagy ügyfélszolgálat.",
+              "A valódi cégek többféle kapcsolatfelvételi lehetőséget adnak.",
+              "Példa: csak egy „Kattints ide” gomb szerepel az e-mailben."
+          ],
+      },
   ],
   education: [
     {
