@@ -14,11 +14,54 @@ export const siteConfig = {
   skills: ["Bocsánat", "Hívj fel!", "Köszi ha elolvasod", "Ha tudod sem árthat", "Family power", "Látogassatok meg"],
   projects: [
     {
-      name: " Ismeretlen feladó szolgáltató mögött",
+      name: "Ismeretlen feladó szolgáltató mögött",
       description:
         "Az e‑mail egy futárszolgálatra hivatkozik, de a feladó címe egy általános e‑mail szolgáltatót használ (pl. Proton Mail), nem a cég hivatalos domainjét. A valódi futárcégek szinte mindig saját domainről küldenek levelet.",
       link: "",
-      skills: ["Feladó", "Domain", "Email"],
+      skills: ["@proton.me", "Feladó", "Domain", "Email"],
+    },
+    {
+      name: "Nem hivatalos weboldalra mutató link",
+      description:
+        "A link nem egy ismert futárszolgálat hivatalos weboldalára vezet, hanem egy általános vagy ismeretlen domainre (pl. GitHub Pages). Ez erős figyelmeztető jel, még akkor is, ha az oldal „jól néz ki”.",
+      link: "",
+      skills: [".github.io", "Link", "Weboldal", "Ellenőrzés"],
+//        https://delivery-status-dpd-systemparcelshipmmt.github.io/
+    },
+    {
+      name: "Olyan csomagról szól, amire nem emlékszel",
+      description:
+        "Az üzenet egy csomagról beszél, de a címzett nem biztos benne, hogy rendelt bármit. A phishing gyakran erre épít: „hátha volt valami”.",
+      link: "",
+      skills: ["Emlékezet", "Feladó", "Gyanú", "Kontextus"],
+    },
+    {
+      name: "Kattintás az egyetlen megoldás",
+      description:
+        "Az e‑mail nem ad alternatívát (telefon, ügyfélszolgálat, hivatalos oldal), csak egyetlen linket kínál. A valódi szolgáltatók több lehetőséget is biztosítanak.",
+      link: "",
+      skills: ["Kattintás", "Kapcsolat", "Ügyfélszolgálat"],
+    },
+    {
+      name: "Sürgető hangnem",
+      description:
+        "Az üzenet azt sugallja, hogy ha nem történik gyors cselekvés, negatív következmény lesz (visszaküldés, elveszett csomag). A sürgetés célja a gondolkodás megkerülése.",
+      link: "",
+      skills: ["Sürgetés", "Időnyomás", "Félelem", "Döntés"],
+    },
+    {
+      name: "Túl kevés személyes adat",
+      description:
+        "Az e‑mail nem tartalmaz konkrét, ellenőrizhető adatokat (pl. pontos rendelési szám, webshop neve), csak általános információkat.",
+      link: "",
+      skills: ["Általános", "Hiány"],
+    },
+    {
+      name: "Nem megszokott kommunikációs csatorna",
+      description:
+        "A futárszolgálatok gyakran SMS‑t, alkalmazást vagy ismert e‑mail címet használnak. Ha az értesítés teljesen új csatornán érkezik, érdemes gyanakodni.",
+      link: "",
+      skills: ["Csatorna", "Szokás", "Kommunikáció", "Eltérés"],
     },
   ],
   experience: [
