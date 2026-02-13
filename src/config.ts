@@ -26,7 +26,6 @@ export const siteConfig = {
         "A link nem egy ismert futárszolgálat hivatalos weboldalára vezet, hanem egy általános vagy ismeretlen domainre (pl. GitHub Pages). Ez erős figyelmeztető jel, még akkor is, ha az oldal „jól néz ki”.",
       link: "",
       skills: [".github.io", "Link", "Weboldal", "Ellenőrzés"],
-//        https://delivery-status-dpd-systemparcelshipmmt.github.io/
     },
     {
       name: "Olyan csomagról szól, amire nem emlékszel",
@@ -68,7 +67,7 @@ export const siteConfig = {
       {
         company: "Általános",
         title: "Gyanús feladó vagy e‑mail cím",
-        dateRange: "Könnyű felismerni",
+        dateRange: "Könnyen felismerhető",
         link: "",
         bullets: [
           "Az e‑mail címe nem egyezik a megszokott hivatalos címmel, vagy furcsa, hosszú, idegen domainről jön.",
@@ -79,7 +78,7 @@ export const siteConfig = {
       {
           company: "Általános",
           title: "Sürgető, nyomást gyakorló szöveg",
-          dateRange: "Könnyű felismerni",
+          dateRange: "Könnyen felismerhető",
           link: "",
           bullets: [
               "A levél azonnali cselekvésre próbál kényszeríteni (pl. „24 órán belül”, „utolsó figyelmeztetés”).",
@@ -90,7 +89,7 @@ export const siteConfig = {
       {
           company: "Általános",
           title: "Hosszú vagy furcsa link",
-          dateRange: "Közepes felismerni",
+          dateRange: "Közepesen felismerhető",
           link: "",
           bullets: [
               "A link nagyon hosszú, sok számot vagy értelmetlen karaktert tartalmaz.",
@@ -101,7 +100,7 @@ export const siteConfig = {
       {
           company: "Általános",
           title: "Általános megszólítás",
-          dateRange: "Könnyű felismerni",
+          dateRange: "Könnyen felismerhető",
           link: "",
           bullets: [
               "Az e-mail nem név szerint szólít meg, hanem általánosan.",
@@ -112,7 +111,7 @@ export const siteConfig = {
       {
           company: "Általános",
           title: "Olyan üzenet, amire nem számítottál",
-          dateRange: "Közepes felismerni",
+          dateRange: "Közepesen felismerhető",
           link: "",
           bullets: [
               "Csomagról, számláról vagy problémáról szól, amiről nem tudsz.",
@@ -123,7 +122,7 @@ export const siteConfig = {
       {
           company: "Általános",
           title: "Csak kattintásra ad lehetőséget",
-          dateRange: "Közepes felismerni",
+          dateRange: "Közepesen felismerhető",
           link: "",
           bullets: [
               "Csak egy link vagy gomb van, nincs telefonszám vagy ügyfélszolgálat.",
