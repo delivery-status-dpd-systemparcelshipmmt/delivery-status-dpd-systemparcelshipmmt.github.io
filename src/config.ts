@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "David Pall",
-  title: "Senior iOS Developer",
+  title: "Family Phising test",
   slogan: "Building seamless iOS experiences with Swift",
   description: "Portfolio website of David Pall",
   accentColor: "#078c74",
